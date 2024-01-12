@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    /* display: flex; */
+    height: 250px;
+margin-top: 0px;
+/* padding-top: 50px;     */
+text-align: center;
+background-color: gray;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/* .header_{
+    height: 100px;
+    width: 400px;
+    background-color:white ;
+    float: right;
+    margin-top: 20px;
+} */
+img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 10px;
+    /* margin-left: 50px; */
+    object-fit: contain;
+}
+
+
+
+#About_Me{
+margin-left: 10px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+#skills .skill{
+text-align: center;
+margin-top: 30px;
+}
+
+.project{
+    border: 1px solid; 
+    margin: 10px;
+    padding: 10px;
+}
+
+.project-symbol {
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+footer{
+    background-color: gray;
+    height: 150px;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foot{
+    height: 70px;
+    width: 400px;
+    background-color:white;
+    justify-content: center;
+    font-size: medium;
+}
