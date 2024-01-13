@@ -11,13 +11,16 @@ header{
     height: 250px;
 /* padding-top: 50px;     */
 text-align: center;
-color: aqua;
+color: azure;
 display: flex;
-flex-direction: column;
+/* flex-direction: column; */
 align-items: center;
+justify-content: space-around;
+/* background-color:white; */
 background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmzgIMqJjOU9-NfquieO8Mfcs-bGjPX9yb_g&usqp=CAU");
 background-repeat: no-repeat;
 background-size: cover;
+
 }
 
 /* .header_{
@@ -33,7 +36,8 @@ img{
     float: left;
     margin: 10px;
     /* margin-left: 50px; */
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 
@@ -47,6 +51,7 @@ margin-bottom: 20px;
 ul{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style: none;
+    margin-left: 0px;
 }
 
 #skills .skill{
@@ -57,14 +62,15 @@ margin-top: 30px;
 .project{
     border: 1px solid; 
     margin: 10px;
-    padding: 10px;
+    margin-left: 20px;
+    padding: 20px;
 }
 
 .project-symbol {
     font-size: 1.5em;
     margin-right: 5px;
 }
-footer{
+/* footer{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmzgIMqJjOU9-NfquieO8Mfcs-bGjPX9yb_g&usqp=CAU");
 background-repeat: no-repeat;
 background-size: cover;
@@ -74,13 +80,13 @@ background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-
+/* 
 .foot{
     height: 70px;
     width: 400px;
     background-color:white;
     justify-content: center;
     font-size: medium;
-}
+} */
