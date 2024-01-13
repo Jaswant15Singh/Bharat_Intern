@@ -2,17 +2,22 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/029/497/589/small/abstract-empty-gradient-background-design-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     /* display: flex; */
     height: 250px;
-margin-top: 0px;
 /* padding-top: 50px;     */
 text-align: center;
-background-color: gray;
+color: aqua;
 display: flex;
 flex-direction: column;
 align-items: center;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmzgIMqJjOU9-NfquieO8Mfcs-bGjPX9yb_g&usqp=CAU");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 /* .header_{
@@ -60,7 +65,9 @@ margin-top: 30px;
     margin-right: 5px;
 }
 footer{
-    background-color: gray;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmzgIMqJjOU9-NfquieO8Mfcs-bGjPX9yb_g&usqp=CAU");
+background-repeat: no-repeat;
+background-size: cover;
     height: 150px;
     text-align: center;
     padding-top: 10px;
