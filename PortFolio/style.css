@@ -2,34 +2,22 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/029/497/589/small/abstract-empty-gradient-background-design-photo.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+   color: azure;
+   background-color: black;
 }
 header{
-    /* display: flex; */
     height: 250px;
-/* padding-top: 50px;     */
 text-align: center;
 color: azure;
 display: flex;
-/* flex-direction: column; */
 align-items: center;
 justify-content: space-around;
-/* background-color:white; */
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmzgIMqJjOU9-NfquieO8Mfcs-bGjPX9yb_g&usqp=CAU");
-background-repeat: no-repeat;
-background-size: cover;
+
+background-color: gray;
 
 }
 
-/* .header_{
-    height: 100px;
-    width: 400px;
-    background-color:white ;
-    float: right;
-    margin-top: 20px;
-} */
+
 img{
     height: 100px;
     width: 100px;
@@ -70,23 +58,24 @@ margin-top: 30px;
     font-size: 1.5em;
     margin-right: 5px;
 }
-/* footer{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmzgIMqJjOU9-NfquieO8Mfcs-bGjPX9yb_g&usqp=CAU");
-background-repeat: no-repeat;
-background-size: cover;
-    height: 150px;
-    text-align: center;
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
-/* 
-.foot{
-    height: 70px;
-    width: 400px;
-    background-color:white;
-    justify-content: center;
-    font-size: medium;
-} */
+a{
+    border-radius: 5%;
+    color: azure;
+}
+
+a:hover{
+    background-color:black ;
+    transition: 0.5s;
+}
+
+.Lang{
+    border: 1px solid;
+    margin: 10px 20px;
+    padding: 20px;
+}
+
+ul{
+    list-style: disc;
+}
+

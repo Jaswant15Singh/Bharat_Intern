@@ -1,6 +1,9 @@
 var search=document.getElementById("search");
 var input_val=document.getElementById("input_val");
 var climate=document.getElementById("climate");
+var details=document.getElementById("more-details");
+var more_details=document.getElementById("more-more-details");
+
 const weather=async(city)=>{
     
     let key=`00ff5679c7f76386d63846772ebab5ed`;
@@ -29,21 +32,29 @@ const weather=async(city)=>{
       climate.src='images/Rainy.jpg'
   }
   else if (data.weather[0].main=='Drizzle') {
-      climate.src='images/low rain.jpg'
+      climate.src='images/low rain.png'
   }
   else if (data.weather[0].main=='Mist') {
-      climate.src='images/low rain.jpg'
+      climate.src='images/Mist.jpg'
   }
   else if (data.weather[0].main=='Haze') {
-      climate.src='images/low rain.png'
+      climate.src='images/Haze.jpg'
   }
   else if (data.weather[0].main=='Smoke') {
    climate.src='images/Clear sky.jpg'
 } 
 
+else if (data.weather[0].main=='Fog') {
+    climate.src='images/Fog.jpg'
+ } 
+
 else if (data.weather[0].main=='Snow') {
-   climate.src='images/low rain.png'
+   climate.src='images/snowfall.webp'
 }
+
+details.style.display="flex";
+more_details.style.display="flex";
+
  }
 
 
